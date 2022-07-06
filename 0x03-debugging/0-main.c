@@ -6,8 +6,8 @@
 int main(void)
 {
 	int i;
+
 	i = 98;
-	positive_or_negative(i);
 	printf("prints if integer is positive or negative\n");
 	return (0);
 }
