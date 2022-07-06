@@ -5,7 +5,10 @@
  */
 int main(void)
 {
-	printf("positive_or_negative\n");
+	int i;
+
+	i = 0;
+	positive_or_negative(i);
 	return (0);
 }
 
