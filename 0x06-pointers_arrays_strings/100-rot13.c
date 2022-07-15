@@ -5,7 +5,7 @@
 #include "main.h"
 
 /**
- * Desc: 100-Wall -rot13.c - Encodes a string using rot13.
+ * rot13 - ...
  * @str: The string to be encoded.
  *
  * Return: A pointer to the encoded string.
