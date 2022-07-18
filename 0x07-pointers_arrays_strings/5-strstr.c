@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strstr - locates a substring 
+ * _strstr - locates a substring
  * @haystack: string in which to check for the needle
  * @needle: substring to find in haystack
  *
