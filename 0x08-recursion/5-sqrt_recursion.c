@@ -1,27 +1,29 @@
 #include "main.h"
 
 /**
- * sqrt_check - checks for the square root of v
- * @u: same number as n
- * @v: number that iterates from 1 to n
+ * sqrt2 - Makes possible to evaluate from 1 to n
+ * @a: same number as n
+ * @b: number that iterates from 1 to n
  *
- * Return: -1 or sqrt of v
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-int sqrt_check(int u, int v)
+int sqrt2(int a, int b)
 {
-	if (v * v == u)
-		return (v);
-	else if (v * v > u)
+	if (b * b == a)
+		return (b);
+	else if (b * b > a)
 		return (-1);
-	return (sqrt_check(v + 1, u));
+	return (sqrt2(a, b + 1));
 }
 /**
- * _sqrt_recursion - returns the natural square root of a number
+ * _sqrt_recursion - returns the natural square root of n
  * @n: Number Integer
  *
- * Return: natural square root or -1
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 int _sqrt_recursion(int n)
 {
-	return (sqrt_check(1, n));
+	return (sqrt2(n, 1));
 }
