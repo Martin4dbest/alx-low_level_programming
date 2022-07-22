@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - print my name
  * @argc: takes integer
  * @argv: char.
