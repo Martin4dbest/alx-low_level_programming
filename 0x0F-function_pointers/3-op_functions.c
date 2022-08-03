@@ -16,7 +16,7 @@ int op_add(int a, int b)
 /**
  * op_sub - 5 functions
  * @a: first variable input
- * @a: second variable input
+ * @b: second variable input
  *
  * Return: 0
  */
@@ -27,7 +27,7 @@ int op_sub(int a, int b)
 /**
  * op_mul - 5 functions
  * @a: first variable input
- * @a: second variable input
+ * @b: second variable input
  *
  * Return: 0
  */
