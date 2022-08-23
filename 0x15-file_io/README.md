@@ -4,12 +4,12 @@
 
 An introductory project on:
 
-<ol>
+<ul>
 <li>How to create, open, close, read and write files</li>
 <li>File descriptors</li>
 <li>System calls</li>
 <li>The difference between a function and a system call</li>
-</ol>
+</ul>
 
 <h2>File Descriptions</h2>
 
@@ -20,3 +20,4 @@ An introductory project on:
 <strong>2-append_text_to_file.c</strong> - function that appends text at the end of a file.
 
 <strong>3-cp.c</strong> - function that copies the content of one file to another file.
+<strong>100-elf_header.c</strong> - Checks if a file is an ELF file.
